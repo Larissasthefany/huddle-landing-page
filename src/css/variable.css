@@ -1,0 +1,9 @@
+:root{
+    /* fontes */
+    --padrao: 'Poppins', sans-serif;
+    --secundaria: font-family: 'Open Sans', sans-serif;
+
+    /* cores */
+    --primary:hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+}

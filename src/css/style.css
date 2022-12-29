@@ -1,0 +1,78 @@
+html{
+    background: url(../images/bg-desktop.svg) no-repeat ;
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+    font-family: 'Poppins';
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1200px;
+    max-width: 100%;
+}
+ .logo{
+    margin: 50px;
+    width: 160px;
+}
+
+img{
+    width: auto;
+}
+
+.page{
+    display: flex;
+}
+
+.about h1{
+    font-size: 2.7em;
+    color: white;
+    font-weight: 600;
+}
+
+.about p{
+    font-size: 1.3rem;
+    color: white;
+    opacity: .8;
+    margin-top: 20px;
+}
+
+button{
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: hsl(257, 40%, 49%);
+    width: 200px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: lightpink;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social a{
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+}
+
+.social a:hover{
+    color: lightpink;
+}
+
